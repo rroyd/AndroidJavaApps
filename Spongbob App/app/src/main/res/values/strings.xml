@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">TvShowApp</string>
+
+    <string-array name = "list_of_characters">
+        <item>
+            Spongbob
+        </item>
+        <item>
+            Patrick
+        </item>
+        <item>
+            Squidward
+        </item>
+        <item>
+            Mr.Krabs
+        </item>
+        <item>
+            Gary
+        </item>
+        <item>
+            Plankton
+        </item>
+        <item>
+            Sandy
+        </item>
+        <item>
+            Mrs. Puff
+        </item>
+        <item>
+            Pearl krabs
+        </item>
+        <item>
+            Karen
+        </item>
+    </string-array>
+    
+    <string-array name = "character_descriptions">
+        <item> A cheerful and optimistic sea sponge who loves jellyfishing and working as a fry cook at the Krusty Krab.</item>
+        <item>SpongeBobs dim-witted but lovable starfish best friend who enjoys eating and relaxing under his rock.</item>
+        <item> A grouchy, artistic octopus who dreams of fame as a clarinet player but is stuck as a cashier at the Krusty Krab.</item>
+        <item>The greedy and eccentric crab who owns the Krusty Krab and is obsessed with making money.</item>
+        <item>SpongeBobs intelligent pet snail, known for his cat-like meowing and calm demeanor.</item>
+        <item> A tiny yet ambitious plankton constantly plotting to steal the Krabby Patty secret formula.</item>
+        <item> A smart and adventurous squirrel from Texas, skilled in karate and science, who lives in an air-filled dome underwater</item>
+        <item>A pufferfish and SpongeBobs long-suffering boating school teacher, who dreads his chaotic driving lessons.</item>
+        <item> Mr. Krabs teenage whale daughter, who loves shopping, cheerleading, and living the life of a typical teenager.</item>
+        <item> Planktons sarcastic computer wife who often provides plans and advice for his schemes.</item>
+    </string-array>
+</resources>
