@@ -9,57 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c02c572-d88f-4e25-8ae9-7efc3a6075f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/java/com/example/ex2/activities/ShoppingActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/java/com/example/ex2/fragments/addItemFrag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/java/com/example/ex2/fragments/loginFrag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/java/com/example/ex2/fragments/profileFrag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/java/com/example/ex2/fragments/registerFrag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/java/com/example/ex2/fragments/showItemsFrag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/java/com/example/ex2/models/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/java/com/example/ex2/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-anydpi/ic_action_name.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-hdpi/ic_action_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-hdpi/ic_plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-hdpi/ic_shopping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-hdpi/ic_user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-mdpi/ic_action_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-mdpi/ic_plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-mdpi/ic_shopping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-mdpi/ic_user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-xhdpi/ic_action_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-xhdpi/ic_plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-xhdpi/ic_shopping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-xhdpi/ic_user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-xxhdpi/ic_action_name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-xxhdpi/ic_plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-xxhdpi/ic_shopping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-xxhdpi/ic_user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-xxxhdpi/ic_plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-xxxhdpi/ic_shopping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable-xxxhdpi/ic_user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable/active_button.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable/change_quantity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable/danger_button.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable/not_active_button.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable/plus_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable/primary_bg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable/primary_button.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable/round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable/secondary_button.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/drawable/transparent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/layout/activity_shopping_list.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/layout/fragment_add_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/layout/fragment_register.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/layout/fragment_show_items.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/layout/item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/layout/item_modal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/navigation/navgraph.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ex2/app/src/main/res/navigation/navgraph2.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6c02c572-d88f-4e25-8ae9-7efc3a6075f6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
