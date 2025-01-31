@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="@drawable/primary_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search:"
+                android:padding="10dp"
+                android:textColor="#000000">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/editTextText"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/searchBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/secondary_button"
+                android:gravity="center"
+                android:textSize="10dp"
+                android:text="Search" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/user_screen"
+        android:name="com.example.ex2.fragments.addItemFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/subtle_grey"
+        android:gravity="center_vertical"
+        android:layout_gravity="end">
+
+
+        <ImageButton
+            android:background="#1AFFFFFF"
+            android:id="@+id/add_item_section"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:onClick="addItemPage"
+            app:tint="@color/black"
+
+            android:src="@drawable/ic_plus" />
+
+        <ImageButton
+            android:id="@+id/items_section"
+            android:onClick="showItemsPage"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            app:tint="@color/white"
+            android:background="@drawable/primary_button"
+            android:scaleType="center"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:src="@drawable/ic_shopping" />
+
+        <ImageButton
+            android:id="@+id/profile_section"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:onClick="showProfilePage"
+            android:background="#1AFFFFFF"
+            android:layout_weight="1"
+            android:tint="@color/black"
+            android:src="@drawable/ic_user"
+            />
+    </LinearLayout>
+
+</LinearLayout>

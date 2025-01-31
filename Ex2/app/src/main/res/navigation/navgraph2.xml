@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/loginFrag">
+
+    <fragment
+        android:id="@+id/loginFrag"
+        android:name="com.example.ex2.fragments.addItemFrag"
+        android:label="loginFrag"
+        tools:layout="@layout/fragment_add_item"/>
+    <fragment
+        android:id="@+id/addItemFrag"
+        android:name="com.example.ex2.fragments.showItemsFrag"
+        android:label="registerFrag"
+        tools:layout="@layout/fragment_show_items">
+        <action
+            android:id="@+id/action_registerFrag_to_loginFrag"
+            app:destination="@id/loginFrag" />
+    </fragment>
+</navigation>
